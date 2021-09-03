@@ -354,7 +354,8 @@ By this, virtual singing is available without any special program.
  <option value="Jutero_v1.2_(42-2).sf2">Jutero (42-2)</option>
  <option value="Nina_v1.2_(67-4).sf2">Nina (67-4)</option>
  <option value="Qurio_v1.2_(51-3).sf2">Qurio (51-3)</option>
- <option value="Robozawa-200kg_(45-2).sf2">Robozawa-200kg (45-2)</option>
+	 <option value="Boyfriend.sf2">Boyfriend (12-4) (45-2)</option>
+
  </select>
  <input onchange="LoadRenoidLocal(event)" id="file" type="file"/><br/>
  Renoid-File : <b><span id="rname"></span></b>
@@ -1042,7 +1043,7 @@ function LoadRenoid(name) {
 				document.getElementById("file").value="";
 			}
 			if(req.status==404) {
-				LoadRenoid("Nagone-Mako_(64-4).sf2");
+				LoadRenoid("Boyfriend.sf2");
 			}
 		}
 	};
